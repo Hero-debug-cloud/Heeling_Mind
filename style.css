@@ -5,6 +5,7 @@
     padding:0;
     font-family: 'Roboto', sans-serif;
 }
+
 .navbar{
     height:13vh;
     display:flex;
@@ -37,8 +38,8 @@ li{
     margin-right:5vw;
 }
 .plans_cont{
-    border-top:1px solid black;
-    border-bottom:1px solid black; 
+    /* border-top:1px solid black;
+    border-bottom:1px solid black;  */
 }
 .pricing{
   margin-bottom:5vh;
@@ -127,8 +128,8 @@ h1{
 
 
 .articles{
-    border-top:1px solid black;
-    border-bottom:1px solid black;
+    /* border-top:1px solid black;
+    border-bottom:1px solid black; */
 }
 .articles_info{
     display: flex;
@@ -136,7 +137,7 @@ h1{
     margin-bottom:5vh;
 }
 .art{
- border:1px solid black;
+ /* border:1px solid black; */
  width:20%;
  height:50vh;
  border-radius:10px;
@@ -293,7 +294,7 @@ h1{
 
 .about_us{
     width:100vw;
-    height:60vh;
+    height:100vh;
     display: flex;
     flex-direction: row;
     /* border:2px solid black; */
@@ -308,11 +309,9 @@ h1{
 
 
 }
+
 .about_us_1 img{
-    padding-left:10%;
-}
-.about_us_1 img{
-    height:100%;
+    height:92%;
 }
 
 
@@ -351,7 +350,7 @@ h1{
 
 .testimonials{
     /* background-color: cyan; */
-    height:90vh;
+    height:100vh;
     width:100vw;;
     text-align: center;
     padding-top:20px;
@@ -362,7 +361,7 @@ h1{
 }
 
 .testimonials h2{
-    margin-top:40px;
+    /* margin-top:10px; */
     font-size:60px;
     color:white;
     font-family: cormorant infant;
@@ -378,7 +377,7 @@ h1{
     width:60%;
     border-radius:20px;
     background:rgba(0,0,0,0.5);
-    margin: 5em auto;
+    margin: 2em auto;
 }
 
 .test1{
@@ -402,7 +401,7 @@ h1{
     padding:20px;
     background: rgba(0,0,0,0.5);
     border-radius:30px;
-    overflow:hidden;
+    overflow:scroll;
 }
 
 .test2 p{
@@ -422,4 +421,12 @@ h1{
     margin:0.5em;
     font-family: cormorant infant;
     font-size:60px;
+}
+
+
+
+/* footer */
+
+footer{
+    text-align: center;
 }
