@@ -21,18 +21,21 @@
     left:2vw;
 
 }
-ul{
+.navbar ul{
   display:flex;
-  text-decoration: none;
+  /* text-decoration: none; */
   list-style: none;
   width:100%;
   justify-content:end;
   align-items:center;
 }
-li{
+.navbar li{
     margin-left:5vw;
     font-size:1.1rem;
     font-weight: 500;
+}
+.navbar a:hover{
+    color:#26ACE2;
 }
 .last_link{
     margin-right:5vw;
@@ -59,6 +62,7 @@ li{
     border:1px solid black;
     border-radius:10px;
     /* padding:20px; */
+    box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.32);
 }
 .silver{
     background-color: silver;
@@ -77,6 +81,8 @@ li{
     align-items: center;
     border-top-right-radius:10px;
     border-top-left-radius:10px;
+    font-weight: bold;
+    font-weight: 3rem;
 }
 .information{
     display:flex;
@@ -108,6 +114,7 @@ h1{
     text-align: center;
     margin-bottom:5vh;
     /* margin-top:5vh; */
+    font-weight:bolder;
 }
 .btn{
     margin-top:5vh;
@@ -153,6 +160,7 @@ h1{
  width:20%;
  height:50vh;
  border-radius:10px;
+ box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.32);
 }
 .art-head{
     font-weight: bold;
@@ -439,7 +447,64 @@ h1{
 
 /* footer */
 
-footer{
-    text-align: center;
-    /* border:1px solid red; */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 220px;
+  }
+  footer {
+    font-family: "Roboto", sans-serif;
+    padding-top: 30px;
+    background-color: antiquewhite;
+    color: black;
+  }
+  .footer-container-grid{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;   
+      padding-left: 100px;
+      padding-right: 100px;
+}
+.footer-title{
+    font-size: 28px;
+}
+.subnews-head{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.list a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+.list li{
+    padding-top: 12px;
+}
+.footer-email-input{
+    border: none;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#email-button{
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(177, 45, 45);
+}
+.list a:hover{
+    color: red;
 }
