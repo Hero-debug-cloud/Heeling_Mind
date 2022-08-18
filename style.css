@@ -208,3 +208,218 @@ h1{
     margin-top:5vh;
 
 }
+
+
+/* about us */
+.main_form{
+    width:100%;
+    height:100vh;
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148907305.jpg?w=2000");
+    background-size: cover; 
+}
+
+
+.form_fields{
+    border:2px solid black;
+    display: flex;
+    flex-direction:column;
+    background:rgba(0,0,0,0.2);
+    justify-content: space-between;
+    height:60%;
+    width:50%;
+    padding:20px;
+    border-radius: 30px;
+    color:white;
+   
+}
+
+
+
+
+
+.form_fields label{
+    font-size:25px;
+}
+
+.form_fields input{
+    width:15em;
+    height:1.5em;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding:5px;
+
+}
+.form_fields select{
+    width:15em;
+    height:2.5em;
+    padding:5px;
+    margin-left:10px;
+    border-radius: 10px;;
+}
+
+
+
+
+#submit_bt{
+    font-size: 25px;
+    width:5em;
+    margin-left:80%;
+    border:none;
+    background-color: red;
+    color:white;
+    padding:5px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+#submit_bt:hover{
+    font-size: 180%;
+}
+
+
+@media (max-width:1311px){
+    #submit_bt{
+        font-size:1em;
+    }
+}
+
+
+
+.about_us{
+    width:100vw;
+    height:60vh;
+    display: flex;
+    flex-direction: row;
+    /* border:2px solid black; */
+
+}
+
+.about_us_1{
+    height:100%;
+    width:30%;
+    /* background-color: aquamarine; */
+    /* border:2px solid red; */
+
+
+}
+.about_us_1 img{
+    padding-left:10%;
+}
+.about_us_1 img{
+    height:100%;
+}
+
+
+#heading{
+    text-align: center;
+    font-size: 50px;
+    /* text-decoration: underline; */
+    font-family: cormorant infant;
+    margin:20px 0px 20px 0px;
+    color:black;
+    
+}
+
+#para::first-letter{
+    font-size: 100px;
+    float:left;
+    line-height: 0.5;
+    margin:15px 15px 10px 0;
+}
+
+#para{
+    font-size:25px;
+    font-family: cormorant infant;
+}
+.about_us_2{
+    height: 100%;
+    width: 70%;
+    color:black;
+    /* background-color: beige; */
+    /* border:2px solid magenta; */
+    background: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=1380&t=st=1660822011~exp=1660822611~hmac=9fe3b2720b1a3654b37de1dfbf91cce578fea6274f60e98c6f8012b065b2683e");
+    background-size: cover; 
+    
+}
+
+
+.testimonials{
+    /* background-color: cyan; */
+    height:90vh;
+    width:100vw;;
+    text-align: center;
+    padding-top:20px;
+    color:white;
+    background-image: url("https://innerchange.com.au/wp-content/uploads/2017/12/Teal-geometric-4k-wallpaper-1440x900.jpg");
+    background-size: cover;    
+
+}
+
+.testimonials h2{
+    margin-top:40px;
+    font-size:60px;
+    color:white;
+    font-family: cormorant infant;
+}
+.content1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top:40px;
+    /* border:2px solid black; */
+    padding:30px;
+    height:60%;
+    width:60%;
+    border-radius:20px;
+    background:rgba(0,0,0,0.5);
+    margin: 5em auto;
+}
+
+.test1{
+    /* border:2px solid black; */
+    width:20em;
+    
+    padding:20px;
+    background:rgba(0,0,0,0.5);
+    border-radius:30px;
+}
+.test1 p{
+    font-family: cormorant infant;
+    font-size:30px;
+}
+
+
+.test2{
+    /* border:2px solid magenta; */
+    width:20em;
+
+    padding:20px;
+    background: rgba(0,0,0,0.5);
+    border-radius:30px;
+    overflow:hidden;
+}
+
+.test2 p{
+    font-family: cormorant infant;
+    font-size: 30px;
+    
+}
+
+
+.compiled{
+    display: flex;;
+    flex-direction: column;
+}
+
+
+#book{
+    margin:0.5em;
+    font-family: cormorant infant;
+    font-size:60px;
+}
