@@ -119,13 +119,18 @@ h1{
 }
 .front_quote{
     position:absolute;
-    top:30vh;
-    color:#26ACE2;
-    color:black;
+    top:18vh;
+    color:#207191;
+    /* color:black; */
     font-weight: bolder;
     font-size:3rem;
-    width:42vw;
-    left:2vw;
+    width:36vw;
+    /* left:2vw; */
+    font-family: Cormorant;
+    background-color: lightgray;
+    border-radius: 10px;
+    border:none;
+    padding:20px;
 }
 
 
