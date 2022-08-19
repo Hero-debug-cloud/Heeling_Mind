@@ -628,12 +628,12 @@ h1{
 
 
 /* Responsive aboutUs,Testimonials,Book a session,Articles,Pricing Section of the website */
- @media (max-width:1500px){
+/*  @media (max-width:1500px){
     .types li{
         display:none;
     }
  
-} 
+}  */
 
 @media (max-width:820px){
     .box{
@@ -675,6 +675,9 @@ h1{
     }
     .form_fields label{
         font-size:20px;
+    }
+    .types li{
+        display:none;
     }
 
     #submit_bt:hover{
